@@ -2,6 +2,8 @@ var canvas = document.getElementById("musee");
 
 var engine = new BABYLON.Engine(canvas, true);
 
+console.log('heyhey')
+
 var createScene = function () {
 
     var scene = new BABYLON.Scene(engine); //On crée une nouvelle scène
